@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "BCO_USD",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_BCOUSD_Brent-Crude-Oil_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_BCOUSD_Brent-Crude-Oil_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 1691,
+  "first_candle": {
+    "time": 1061240400,
+    "Time": "2003-08-18T21:00:00.000000000Z",
+    "open": 29.457,
+    "high": 29.669,
+    "low": 28.926,
+    "close": 29.254,
+    "volume": 570
+  },
+  "last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 77.788,
+    "high": 78.508,
+    "low": 77.356,
+    "close": 77.594,
+    "volume": 2364
+  },
+  "csv_file": "OANDA_BCOUSD_Brent-Crude-Oil_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 1691,
+  "csv_first_candle": {
+    "time": 1061240400,
+    "Time": "2003-08-18T21:00:00.000000000Z",
+    "open": 29.457,
+    "high": 29.669,
+    "low": 28.926,
+    "close": 29.254,
+    "volume": 570
+  },
+  "csv_last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 77.788,
+    "high": 78.508,
+    "low": 77.356,
+    "close": 77.594,
+    "volume": 2364
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:44:02.000000000Z",
+  "generated_at": "2026-10-16T01:44:02.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-08-18T21:00:00Z",
+        "to": "2017-04-26T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
