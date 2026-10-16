@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "BCO_USD",
+  "granularity": "M1",
+  "chunk_start": "2024-09-01",
+  "chunk_end": "2024-09-30",
+  "parquet_file": "OANDA_BCOUSD_Brent-Crude-Oil_1_2024-09-01_to_2024-09-30.parquet",
+  "data_file": "OANDA_BCOUSD_Brent-Crude-Oil_1_2024-09-01_to_2024-09-30.parquet",
+  "row_count": 26925,
+  "first_candle": {
+    "time": 1725228000,
+    "Time": "2024-09-01T22:00:00.000000000Z",
+    "open": 77.432,
+    "high": 77.432,
+    "low": 77.432,
+    "close": 77.432,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1727733540,
+    "Time": "2024-09-30T21:59:00.000000000Z",
+    "open": 72.607,
+    "high": 72.607,
+    "low": 72.597,
+    "close": 72.597,
+    "volume": 2
+  },
+  "csv_file": "OANDA_BCOUSD_Brent-Crude-Oil_1_2024-09-01_to_2024-09-30.parquet",
+  "csv_row_count": 26925,
+  "csv_first_candle": {
+    "time": 1725228000,
+    "Time": "2024-09-01T22:00:00.000000000Z",
+    "open": 77.432,
+    "high": 77.432,
+    "low": 77.432,
+    "close": 77.432,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1727733540,
+    "Time": "2024-09-30T21:59:00.000000000Z",
+    "open": 72.607,
+    "high": 72.607,
+    "low": 72.597,
+    "close": 72.597,
+    "volume": 2
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:43:25.000000000Z",
+  "generated_at": "2026-10-16T01:43:25.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2437,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2024-08-31T02:53:00Z",
+        "to": "2024-09-03T14:13:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-09-03T14:13:00Z",
+        "to": "2024-09-07T01:33:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-09-07T01:33:00Z",
+        "to": "2024-09-10T12:53:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-09-10T12:53:00Z",
+        "to": "2024-09-14T00:13:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-09-14T00:13:00Z",
+        "to": "2024-09-17T11:33:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-09-17T11:33:00Z",
+        "to": "2024-09-20T22:53:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-09-20T22:53:00Z",
+        "to": "2024-09-24T10:13:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-09-24T10:13:00Z",
+        "to": "2024-09-27T21:33:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-09-27T21:33:00Z",
+        "to": "2024-10-01T08:53:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "BCO_USD",
+  "granularity": "M1",
+  "chunk_start": "2004-10-01",
+  "chunk_end": "2004-10-31",
+  "parquet_file": "OANDA_BCOUSD_Brent-Crude-Oil_1_2004-10-01_to_2004-10-31.parquet",
+  "data_file": "OANDA_BCOUSD_Brent-Crude-Oil_1_2004-10-01_to_2004-10-31.parquet",
+  "row_count": 7248,
+  "first_candle": {
+    "time": 1096621320,
+    "Time": "2004-10-01T09:02:00.000000000Z",
+    "open": 46.11,
+    "high": 46.12,
+    "low": 46.11,
+    "close": 46.11,
+    "volume": 3
+  },
+  "last_candle": {
+    "time": 1099074600,
+    "Time": "2004-10-29T18:30:00.000000000Z",
+    "open": 49.194,
+    "high": 49.194,
+    "low": 49.174,
+    "close": 49.174,
+    "volume": 2
+  },
+  "csv_file": "OANDA_BCOUSD_Brent-Crude-Oil_1_2004-10-01_to_2004-10-31.parquet",
+  "csv_row_count": 7248,
+  "csv_first_candle": {
+    "time": 1096621320,
+    "Time": "2004-10-01T09:02:00.000000000Z",
+    "open": 46.11,
+    "high": 46.12,
+    "low": 46.11,
+    "close": 46.11,
+    "volume": 3
+  },
+  "csv_last_candle": {
+    "time": 1099074600,
+    "Time": "2004-10-29T18:30:00.000000000Z",
+    "open": 49.194,
+    "high": 49.194,
+    "low": 49.174,
+    "close": 49.174,
+    "volume": 2
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:42:28.000000000Z",
+  "generated_at": "2026-10-16T01:42:28.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2437,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2004-09-30T19:33:00Z",
+        "to": "2004-10-04T06:53:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-10-04T06:53:00Z",
+        "to": "2004-10-07T18:13:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-10-07T18:13:00Z",
+        "to": "2004-10-11T05:33:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-10-11T05:33:00Z",
+        "to": "2004-10-14T16:53:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-10-14T16:53:00Z",
+        "to": "2004-10-18T04:13:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-10-18T04:13:00Z",
+        "to": "2004-10-21T15:33:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-10-21T15:33:00Z",
+        "to": "2004-10-25T02:53:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-10-25T02:53:00Z",
+        "to": "2004-10-28T14:13:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-10-28T14:13:00Z",
+        "to": "2004-11-01T01:33:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
